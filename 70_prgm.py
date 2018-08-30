@@ -1,0 +1,5 @@
+value=int(input("Enter Value"))
+if value == 0:print(1)
+if value & (value - 1) == 0:print(value)
+while value & (value - 1) > 0:value &= (value - 1)
+print(value << 1)

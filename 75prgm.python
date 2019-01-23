@@ -1,0 +1,9 @@
+d=int(input())
+rr=input().split()
+rr=list(map(int,rr))
+d=0
+for i in range(h):
+  for j in range(i,h):
+    if(rr[i]<rr[j]):
+      d+=1
+print(d)

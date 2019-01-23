@@ -1,0 +1,19 @@
+m=int(input("enter num"))
+l=[]
+e=0
+s=0
+for i in range(m):
+    a=int(input("enter data"))
+    l.append(a)
+    if(a%2==0):
+        e+=1
+    else:
+        s+=1
+if e>s:
+    for i in range(m):
+        if l[i]%2!=0:
+            print(l[i])
+else:
+    for i in range(m):
+        if l[i]%2==0:
+            print(l[i])
